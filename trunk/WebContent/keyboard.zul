@@ -1,0 +1,23 @@
+<?page title="Auto Generated index.zul"?>
+<zk>
+
+	<div use="org.zkoss.keyboard.KeyboardArea" popup="keyboard"
+		keyboard="chewing">
+		<textbox id="hello" />
+		<textbox id="hello2" />
+	</div>
+
+	<div use="org.zkoss.keyboard.KeyboardArea" popup="keyboard2"
+		keyboard="numeric">
+		<textbox id="hello3" />
+		<textbox id="hello4" />
+	</div>
+
+	<popup id="keyboard2">
+		<keyboard id="numeric" type="numeric" />
+	</popup>
+	<popup id="keyboard">
+		<keyboard id="chewing" type="chewing" />
+	</popup>
+
+</zk>

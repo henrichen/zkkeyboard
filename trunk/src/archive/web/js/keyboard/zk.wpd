@@ -1,0 +1,4 @@
+<package name="keyboard" language="xul/html" depends="zul.inp">
+	<widget name="Keyboard" />
+	<widget name="KeyboardArea" />
+</package>
