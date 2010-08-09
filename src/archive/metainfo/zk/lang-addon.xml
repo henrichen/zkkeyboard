@@ -1,0 +1,15 @@
+<language-addon>
+	<addon-name>keyboard</addon-name>
+	<language-name>xul/html</language-name>
+
+	<component>
+		<component-name>keyboard</component-name>
+		<component-class>org.zkoss.keyboard.Keyboard</component-class>
+		<widget-class>keyboard.Keyboard</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/keyboard.js</mold-uri>
+			<css-uri>css/keyboard.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>
